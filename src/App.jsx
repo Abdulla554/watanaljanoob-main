@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Home from './pages/Home';
-// import Service from './pages/Service';
-// import About from './pages/About';
+import Home from './pages/Home';
+import Service from './pages/Service';
+import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { useEffect } from "react";
@@ -25,11 +25,11 @@ const App = () => {
       <Navbar />
 
       <Routes>
-      <Route path="/" element={<Contactus/>} />
-        {/* <Route path="/" element={<Home/>} />
+      {/* <Route path="/" element={<Contactus/>} /> */}
+        <Route path="/" element={<Home/>} />
         <Route path="/services" element={<Service />} />
         <Route path="/about" element={<About />} /> 
-        <Route path="/contactus" element={<Contactus />} /> */}
+        <Route path="/contactus" element={<Contactus />} />
       </Routes>
 
       <Footer />

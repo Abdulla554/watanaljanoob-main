@@ -26,7 +26,7 @@ const Footer = () => {
         {/* Footer Text */}
         <div className="text-center font-cairo-regular text-lg md:text-xl  text-[#374350]">
           <p dir="rtl">
-            شركة واحة الجنوب كل الحقوق محفوضة 
+           كل الحقوق محفوظة لدى شركة  وطن الجنوب © 2024
           </p>
         </div>
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
